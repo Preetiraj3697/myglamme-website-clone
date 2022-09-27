@@ -1,0 +1,73 @@
+.container{
+    display:flex;
+    width:30%;
+    gap:30px;
+    border:green solid; 
+}
+img{
+    width:100%;
+}
+.flex3 { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-left:40px;
+    margin-right:40px;
+} 
+.flex-items { 
+    background-color: #f4f4f4; 
+    width: 100%; 
+    height:auto; 
+    margin: 20px; 
+    text-align: center; 
+    font-size: 40px; 
+} 
+.h3{
+    color:#333333;
+    font-size:33px;
+    line-height:32px;
+    border-bottom: rgb(253, 144, 162) solid;
+    border-width: 12px;
+    width:17%;
+    margin:auto;
+    font-style: italic;
+    text-shadow: 1.5px 1.5px rgb(253, 144, 162);
+}
+.text{
+    font-size:20px;
+    margin-top:-88px;
+    background:rgb(212, 209, 209);
+    opacity:0.7;
+    z-index:4;
+    position: absolute;
+    width:532px;
+   text-align: center;
+   
+}
+.text1{
+    font-size:20px;
+    margin-top:-88px;
+    background:rgb(212, 209, 209);
+    opacity:0.7;
+    z-index:4;
+    position: absolute;
+    width:390px;
+   text-align: center;
+   
+}
+.h4{
+    color:#333333;
+    font-size:33px;
+    line-height:32px;
+    border-bottom: rgb(253, 144, 162) solid;
+    border-width: 12px;
+    width:25%;
+    margin:auto;
+    font-style: italic;
+    text-shadow: 1.5px 1.5px rgb(253, 144, 162);
+    text-align: center;
+}
+.poster1{
+    width:93%;
+    margin:auto;
+    margin:65px auto;
+}

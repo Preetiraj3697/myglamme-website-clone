@@ -1,15 +1,13 @@
 
 import './App.css';
+import Box from './Box';
+import Slider from './Slider';
 
 function App() {
   return (
     <div className="App">
-      <h1>Myglamm Website Clone</h1>
-       <img
-        src="https://files.myglamm.com/site-images/original/700X488_2.gif"
-        alt="this slowpoke moves"
-        width="250"
-      />
+      <Slider/>
+      <Box/>
     </div>
   );
 }
