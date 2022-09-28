@@ -1,0 +1,18 @@
+#add{
+    background:rgb(255, 216, 222);
+    display:flex;
+    justify-content: space-between;
+    padding:0px 20px;
+    font-size:16px;
+}
+
+p{
+    font-size:16px;
+    font-weight:600;
+}
+span{
+    font-size:16px;
+    color:rgb(255, 118, 141);
+    font-weight: 900;
+    margin-left: 50px;
+}

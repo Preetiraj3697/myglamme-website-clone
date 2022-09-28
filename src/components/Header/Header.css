@@ -1,0 +1,17 @@
+.Header{
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    color:black;
+}
+input{
+    width:40%;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+#head{
+    position:fixed;
+    position:sticky;
+}

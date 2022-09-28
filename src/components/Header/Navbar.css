@@ -1,0 +1,25 @@
+.navbar-lists {
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+    list-style-type: none;
+   
+}
+    .navbar-link {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.8rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:black;
+    
+  }
+  .navbar-link:hover{
+    color:rgb(255, 51, 85);
+  }
+  button{
+    padding:10px 30px;
+    font-size:22px;
+  }
+  
