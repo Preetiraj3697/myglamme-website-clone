@@ -31,6 +31,8 @@ img{
     margin:auto;
     font-style: italic;
     text-shadow: 1.5px 1.5px rgb(253, 144, 162);
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 .text{
     font-size:20px;
@@ -56,15 +58,17 @@ img{
 }
 .h4{
     color:#333333;
-    font-size:33px;
-    line-height:32px;
+    font-size:30px;
+    line-height:22px;
     border-bottom: rgb(253, 144, 162) solid;
     border-width: 12px;
-    width:25%;
+    width:30%;
     margin:auto;
     font-style: italic;
     text-shadow: 1.5px 1.5px rgb(253, 144, 162);
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 .poster1{
     width:93%;
