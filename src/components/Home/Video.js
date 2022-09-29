@@ -9,7 +9,7 @@ const Video = () => {
             width="100%"
             height="450px"
             frameborder="0"
-            allow=" autoplay;muted"
+            allow="muted"
             allowFullScreen
           />
    </div>

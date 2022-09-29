@@ -1,0 +1,32 @@
+.grid-item>img{
+    width:100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin:30px;
+  }
+  .grid-item {
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    box-shadow: 1px 1px 1px black;
+    
+  } 
+.Input{
+  width:88%;
+  margin:10px;
+  margin-left:20px;
+}
+.strick{
+  color:grey;
+  font-weight: 400;
+}
+.grid-item>button:hover{
+ box-shadow: 1px 1px 1px black;
+}

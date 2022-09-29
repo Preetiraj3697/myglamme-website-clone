@@ -6,6 +6,7 @@ import './Home.css'
 import Video from './Video'
 
 const Home = () => {
+  
   return (
     <div id="home">
       <Slider/>
