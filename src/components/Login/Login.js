@@ -25,7 +25,10 @@ const LoginForm = () => {
     const onSuccess = e => {
         alert("User signed in")
         console.log(e)
-    }
+    } 
+    // if(onSuccess){
+    //     window.location.href = "http://localhost:3000/products"
+    // }
 
     const onFailure = e => {
         alert("User sign in Failed")
@@ -62,6 +65,7 @@ const LoginForm = () => {
             <div className={popupStyle}>
                 <h3>Login Failed</h3>
                 <p>Username or password incorrect</p>
+             
             </div>
             
         </div>

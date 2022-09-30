@@ -30,3 +30,6 @@
 .grid-item>button:hover{
  box-shadow: 1px 1px 1px black;
 }
+.btnt{
+  margin:10px
+}
