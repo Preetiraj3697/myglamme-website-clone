@@ -1,0 +1,25 @@
+.singleproducts_container{
+    display:flex;
+    gap:50px;
+    margin:50px;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+}
+.btn{
+    margin:10px;
+}
+.first>img{
+    width:100%; 
+    height:100%; 
+}
+.first{
+    margin:70px;
+    margin-right: 10px;
+    width:70%;
+}
+.second{
+    margin:50px;
+    background-color: rgb(189, 189, 189);
+    padding:50px;
+    margin-left:0;
+}
