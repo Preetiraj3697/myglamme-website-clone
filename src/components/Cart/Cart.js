@@ -1,6 +1,7 @@
 import React from "react";
-import { CartProvider, useCart } from "react-use-cart";
 import './Cart.css'
+import { CartProvider, useCart } from "react-use-cart";
+
 const Cart = () => {
   const {
     isEmpty,
@@ -18,14 +19,14 @@ const Cart = () => {
   if (isEmpty) return <h1 className="text-center"> Your cart isEmpty </h1>;
   return (
     <CartProvider>
-    <section className="container">
+    <section className="hello">
       <div className="row ">
-        <div className="col-18">
+        <div className="col-3">
           <h5>
             {" "}
           <h1> Cart ({totalUniqueItems}) total Item :({totalItems})</h1> 
           </h5>
-          <table className="table table-light m-8 ">
+          <table>
             <tbody>
               {items.map((item, index) => {
                 return (
@@ -74,7 +75,7 @@ const Cart = () => {
           </table>
 
           <div className="col-auto ms-auto">
-            <h2> total price: {cartTotal} EGP</h2>
+            <h1> Total price: {cartTotal} EGP</h1>
           </div>
         </div>
         <div className="col-auto mb-2">
